@@ -1,4 +1,4 @@
-name: CS421pain
+name: cs421pain
 channels:
   - conda-forge
   - defaults
