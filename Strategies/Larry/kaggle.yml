@@ -1,0 +1,10 @@
+project: autoencoder-try-1
+kernel_slug: Zypperman/autoencoder-try-1
+code_file: Project2026 (Autoencoders).ipynb
+accelerator: gpu
+internet: true
+privacy: private
+datasets: []
+competitions: []
+outputs:
+  download_to: .kaggle-outputs/
