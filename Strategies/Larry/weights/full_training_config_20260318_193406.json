@@ -1,0 +1,24 @@
+{
+    "model_architecture": {
+        "layer_sizes": [
+            1000,
+            750,
+            500,
+            256,
+            128,
+            64
+        ]
+    },
+    "training_hyperparameters": {
+        "learning_rate": 0.001,
+        "epochs": 100,
+        "batch_size": 64,
+        "cv_min_delta": 1e-05,
+        "cv_patience": 8,
+        "enable_early_stopping": false,
+        "train_on_normal_only": true
+    },
+    "metadata": {
+        "timestamp": "2026-03-18 19:34:06"
+    }
+}
