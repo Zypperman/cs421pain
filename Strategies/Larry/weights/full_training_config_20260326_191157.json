@@ -1,0 +1,17 @@
+{
+    "model_architecture": {
+        "noise_factor": 0.1
+    },
+    "training_hyperparameters": {
+        "learning_rate": 0.001,
+        "epochs": 150,
+        "batch_size": 64,
+        "cv_min_delta": 1e-05,
+        "cv_patience": 8,
+        "enable_early_stopping": false,
+        "train_on_normal_only": true
+    },
+    "metadata": {
+        "timestamp": "2026-03-26 19:11:57"
+    }
+}

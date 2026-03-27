@@ -18,4 +18,9 @@ Taken from [Gemini](https://gemini.google.com/share/b275e3e3af96)
     - create embeddings for existing users based on item interactions
     - figure out which purchase is anomalous
 
-AI recommends to use an ensemble training pipeline to handle the new data over time.
+AI recommends to use an ensemble training pipeline to handle the new data over time
+
+## About autoencoders
+
+- <https://arxiv.org/pdf/2501.13864>
+    - its possible to bullshit a reconstruction loss despite being an anomaly (phenomena characterised as out-of-bounds reconstruction loss)
