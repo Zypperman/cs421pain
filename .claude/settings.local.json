@@ -3,7 +3,12 @@
     "allow": [
       "Bash(python -c \":*)",
       "Bash(pip install:*)",
-      "Bash(pip list:*)"
+      "Bash(pip list:*)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''Strategies/EDA/Assoc Rule Mining findings \\(012\\).ipynb''\\)\\); [print\\(i, c[''id'']\\) for i,c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\(''Strategies/EDA/Assoc Rule Mining findings \\(012\\).ipynb'', encoding=''utf-8''\\)\\); [print\\(i, c[''id'']\\) for i,c in enumerate\\(nb[''cells'']\\)]\")",
+      "Bash(wc:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 _insert_ensemble_cells.py)"
     ]
   }
 }
